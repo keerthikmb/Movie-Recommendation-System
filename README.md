@@ -2,16 +2,16 @@
 
 A compact Netflix-style MovieLens recommender implementing all three requested approaches:
 
-| Approach | Implementation | Use |
+| **Approach** | **Implementation** | **Use** |
 | --- | --- | --- |
-| Content-based filtering | TF-IDF genre embeddings + cosine similarity | Similar titles and cold-start preferences |
+| Content-based filtering | TF-IDF genre embeddings + cosine similarity | Similar titles and genre-based recommendations |
 | Collaborative filtering | Biased matrix factorization trained with SGD | Learns taste patterns from user ratings |
 | Hybrid model | Weighted, normalized blend of both scores | Default personalized ranking |
 
 ## Quick start
 
 ```powershell
-cd C:\Users\keert\Documents\Codex\2026-07-31\movie-recommendation-system-ai-personalization-what\outputs\movie-recommender
+
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 pip install -r requirements.txt
